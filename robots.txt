@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dinero-inteligente.netlify.app/sitemap.xml
