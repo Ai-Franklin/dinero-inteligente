@@ -243,6 +243,73 @@ footer {
 footer p { margin-bottom: 0.5rem; }
 footer a { color: var(--primary); }
 
+/* Monetización y contenido enriquecido */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+th, td {
+  padding: 0.85rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+th {
+  background: #064e3b;
+  color: white;
+}
+
+.ad-slot {
+  border: 2px dashed #94a3b8;
+  background: #f1f5f9;
+  color: #64748b;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
+.affiliate-box,
+.disclosure-box,
+.cta-box {
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.affiliate-box {
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+}
+
+.disclosure-box {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, #064e3b, #10B981);
+  color: white;
+}
+
+.cta-box h2 { color: white; margin-top: 0; }
+
+.mermaid-code {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2rem; }
