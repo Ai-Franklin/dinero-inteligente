@@ -25,4 +25,11 @@
     <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
+
+    <url>
+        <loc>https://ai-franklin.github.io/dinero-inteligente/prompts-articulos.html</loc>
+        <lastmod>2026-06-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
