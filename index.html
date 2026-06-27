@@ -4,39 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dinero Inteligente - Tu Guía de Finanzas Personales</title>
-  <meta name="description" content="Aprende a ahorrar, invertir y manejar tu dinero con consejos prácticos de finanzas personales en español.">
+  <meta name="description" content="Aprende a ahorrar, invertir y manejar tu dinero con consejos prácticos de finanzas personales en español. Educación financiera clara y útil.">
+  <meta name="keywords" content="finanzas personales, ahorrar dinero, invertir, presupuesto, libertad financiera, educación financiera español">
+  <meta name="author" content="Dinero Inteligente">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
   <div class="header-inner">
-    <div class="logo">💰 Dinero<span>Inteligente</span></div>
+    <a href="/" class="logo">💰 Dinero<span>Inteligente</span></a>
     <nav>
       <a href="/">Inicio</a>
       <a href="#artículos">Artículos</a>
-      <a href="#consejos">Consejos</a>
       <a href="prompts-articulos.html">Prompts</a>
+      <a href="#consejos">Consejos</a>
     </nav>
   </div>
 </header>
 
 <section class="hero">
   <h1>Toma el Control de Tu Dinero</h1>
-  <p>Consejos prácticos de finanzas personales para ahorrar más, invertir mejor y alcanzar tu libertad financiera.</p>
+  <p>Consejos prácticos de finanzas personales para ahorrar más, invertir mejor y alcanzar tu libertad financiera. Sin promesas vacías, solo educación real.</p>
   <a href="#artículos" class="btn">Leer Artículos →</a>
 </section>
 
 <section class="container" id="artículos">
   <h2 class="section-title">📝 Últimos Artículos</h2>
-  <p class="section-subtitle">Guías prácticas para mejorar tus finanzas hoy mismo.</p>
+  <p class="section-subtitle">Guías prácticas inspiradas en principios financieros para tomar mejores decisiones con tu dinero.</p>
 
   <div class="articles-grid">
 
     <article class="article-card">
+      <a href="articles/libertad-financiera.html">
+        <div class="card-image green">🏔️</div>
+        <div class="card-body">
+          <h3>Libertad Financiera: Qué Es y Cómo Alcanzarla</h3>
+          <p>Las 4 etapas hacia la libertad financiera y cómo construir tu máquina de dinero paso a paso.</p>
+          <div class="card-meta">
+            <span class="tag">Libertad</span>
+            <span>15 min de lectura</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+    <article class="article-card">
+      <a href="articles/presupuesto-mensual.html">
+        <div class="card-image blue">📊</div>
+        <div class="card-body">
+          <h3>Cómo Hacer un Presupuesto Mensual que Funcione</h3>
+          <p>La regla 50/30/20 y un sistema paso a paso para que cada peso tenga un propósito.</p>
+          <div class="card-meta">
+            <span class="tag">Presupuesto</span>
+            <span>12 min de lectura</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+    <article class="article-card">
+      <a href="articles/fondo-emergencia.html">
+        <div class="card-image orange">🛡️</div>
+        <div class="card-body">
+          <h3>Fondo de Emergencia: Cuánto Necesitas y Cómo Empezar</h3>
+          <p>El colchón financiero que te protege de deudas inesperadas. Cómo construirlo desde cero.</p>
+          <div class="card-meta">
+            <span class="tag">Ahorro</span>
+            <span>12 min de lectura</span>
+          </div>
+        </div>
+      </a>
+    </article>
+
+    <article class="article-card">
       <a href="articles/como-salir-de-deudas.html">
-        <div class="card-image green">📉</div>
+        <div class="card-image rose">📉</div>
         <div class="card-body">
           <h3>Cómo Salir de Deudas Paso a Paso</h3>
           <p>Un plan claro para ordenar tus deudas, reducir intereses y recuperar control financiero.</p>
@@ -50,7 +96,7 @@
 
     <article class="article-card">
       <a href="articles/como-ahorrar-dinero.html">
-        <div class="card-image green">🏦</div>
+        <div class="card-image teal">🏦</div>
         <div class="card-body">
           <h3>Cómo Ahorrar Dinero: 10 Trucos que Funcionan</h3>
           <p>Estrategias comprobadas para reducir gastos y empezar a ahorrar aunque ganes poco.</p>
@@ -67,7 +113,7 @@
         <div class="card-image blue">📈</div>
         <div class="card-body">
           <h3>Cómo Invertir con Poco Dinero (Desde $100)</h3>
-          <p>No necesitas ser rico para invertir. Te mostramos opciones accesibles para empezar hoy.</p>
+          <p>No necesitas ser rico para invertir. Opciones accesibles para empezar hoy.</p>
           <div class="card-meta">
             <span class="tag">Inversión</span>
             <span>10 min de lectura</span>
@@ -94,26 +140,58 @@
 </section>
 
 <section class="container">
-  <div class="tip-box" style="text-align:center; padding:2rem;">
-    <h3 style="margin-bottom:0.5rem;">🤖 Crea artículos con IA</h3>
-    <p style="margin-bottom:1rem;">Usa nuestros prompts listos para generar artículos financieros completos con SEO, tablas y diagramas.</p>
-    <a href="prompts-articulos.html" class="btn">Ver Prompts para Artículos →</a>
+  <div class="cta-box">
+    <h2>🤖 Crea artículos con IA</h2>
+    <p>Usa nuestros prompts listos para generar artículos financieros completos con SEO, tablas, diagramas e imágenes.</p>
+    <a href="prompts-articulos.html" class="btn" style="margin-top:1rem;">Ver Prompts para Artículos →</a>
   </div>
 </section>
 
 <section class="container" id="consejos">
-  <h2 class="section-title">💡 Consejo del Día</h2>
-  <div class="tip-box">
-    <strong>Regla 50/30/20:</strong> Destina el 50% de tu ingreso a necesidades, 30% a deseos y 20% a ahorro e inversión. Esta regla simple te ayudará a organizar tus finanzas sin complicaciones.
+  <h2 class="section-title">💡 Principio del Día</h2>
+  <div class="principle-box">
+    <h3>🎯 La regla causa-efecto del dinero</h3>
+    <ul>
+      <li>Si gastas más de lo que ganas, dependes de la deuda.</li>
+      <li>Si dependes de la deuda, pagas intereses que trabajan en tu contra.</li>
+      <li>Si reduces deuda y aumentas activos, recuperas el control.</li>
+      <li>El dinero es un sistema: entiende las reglas y toma mejores decisiones.</li>
+    </ul>
   </div>
 </section>
 
 <footer>
-  <p><strong>Dinero Inteligente</strong> © <span id="year">2026</span></p>
-  <p>Tu guía confiable de finanzas personales en español.</p>
-  <p><a href="#">Política de Privacidad</a> · <a href="#">Contacto</a></p>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>💰 Dinero Inteligente</h3>
+      <p>Educación financiera simple para tomar mejores decisiones con tu dinero. Sin promesas vacías.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Artículos</h4>
+      <ul>
+        <li><a href="articles/libertad-financiera.html">Libertad Financiera</a></li>
+        <li><a href="articles/presupuesto-mensual.html">Presupuesto Mensual</a></li>
+        <li><a href="articles/fondo-emergencia.html">Fondo de Emergencia</a></li>
+        <li><a href="articles/como-salir-de-deudas.html">Salir de Deudas</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Herramientas</h4>
+      <ul>
+        <li><a href="prompts-articulos.html">Prompts para Artículos</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Legal</h4>
+      <p>Contenido educativo. No es asesoría financiera personalizada.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year">2026</span> Dinero Inteligente. Todos los derechos reservados.</p>
+  </div>
 </footer>
 
+<button class="back-to-top" aria-label="Volver arriba">↑</button>
 <script src="js/main.js"></script>
 </body>
 </html>
